@@ -1,3 +1,59 @@
 .flex {
     display: flex;
 }
+
+#item {
+    font-weight: bold;
+    display: flex;
+}
+body{
+    background-image: linear-gradient(to bottom, pink, blue);
+}
+p {
+    background-color: white;
+    width: 80%;
+    box-shadow: 5px 5px 5px black;
+}
+
+#delete {
+    width: 36px;
+    height: 36px;
+    background: url("icons/trash.png");
+    border-radius: 36px;
+    box-shadow: 3px 3px 5px black;
+}
+
+#clear {
+    height: 50%;
+}
+
+#header {
+    align-items: center;
+}
+
+#titleHeader {
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    padding-right: 40px;
+}
+
+#pastebox {
+    width: 96.5%;
+    height: 200px;
+    text-align: left;
+}
+
+#logo {
+    width: 8%;
+    height: 8%;
+}
+
+span {
+    font-size: small;
+    padding-right: 3%;
+    padding-top: 1%;
+}
+
+#message {
+    width: 100%;
+}

@@ -7,16 +7,23 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <div class="flex">
+        <div class="flex" id="header">
             <h1 id="titleHeader">Checklistify</h1>
-            <input id="clear" type="button" value="clear">
+            <input id="clear" type="button" value="Clear"> <!--Clears the checklist-->
         </div>
         <div id="checklistItems">
-            
+            <!--All checklist items are inserted in here-->
         </div>
         <div class="flex">
-            <input id="addNew" type="button" value="Add">
-            <input id="textbox" type="text" value="Enter text here...">
+            <input id="addNew" type="button" value="Add"> <!--Adds the text from "textbox" to the checklist-->
+            <input id="textbox" type="text" value="Enter text here..."> <!--Used to add user created items to the checklist-->
+        </div>
+        <p id="message">Paste text below to let ChatGPT turn it into a checklist!</p>
+        <textarea id="pastebox" value="Paste stuff here..."></textarea> <!--Text entered here is turned into a checklist by ChatGPT-->
+
+        <div class="flex">
+            <span>Powered by ChatGPT 3.5 Turbo</span>
+            <img id="logo" src="icons/chatgptlogo.png">
         </div>
     </body>
 </html>

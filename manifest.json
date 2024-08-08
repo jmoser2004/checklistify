@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
     "name": "Checklistify",
-    "version": "1.0.0",
-    "description": "An extension that allows the user to create a simple checklist",
+    "version": "2.0.0",
+    "description": "An extension that allows the user to create a simple checklist, includes ChatGPT integration allowing for easy checklist generation",
     "icons": {
         "128": "icons/icon128.png",
         "32": "icons/icon32.png",
